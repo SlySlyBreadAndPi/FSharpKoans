@@ -213,7 +213,7 @@ module ``08: Putting the Function into Functional Programming`` =
         
         a |> should be ofType<int->int->int>
         b |> should be ofType<int -> float -> string -> char -> bool -> string>
-        b 14 -8.7 |> should be ofType<int>
+        b 14 -8.7 |> should be ofType<string->char->bool->string>
 
 
     [<Test>]
